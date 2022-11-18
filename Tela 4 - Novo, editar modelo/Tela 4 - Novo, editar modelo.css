@@ -1,5 +1,5 @@
 #video{
-    position: fixed;
+    position: absolute;
     margin: 0;
     right: 0;
     top: 0;
@@ -12,19 +12,24 @@
     width: 75%;
     height: 95.9%;
     object-fit: fill;
+
+}
+
+.form-box{
+  left: 159vh;
+  position: absolute;
+  margin: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 23%;
+  height: 95.9%;
 }
 
 fieldset{
   border: none;
-}
-
-.input-form{
-  position: relative;
-  display: block;
-  left: 158vh;
-  top: 3vh;
-  width: 280px;
-  height: 60vh;
 }
 
 .input-name{
