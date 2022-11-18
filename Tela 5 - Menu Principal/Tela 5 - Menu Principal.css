@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: grey;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    display: grid;
+}
+
+.cards{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    height: 80vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-position: center center;
+    font-family: poppins;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+
+.cardwrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+
+}
+
+.cardwrapper .cardbox{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    transition: transform 500ms ease-out;
+    overflow: hidden; 
+    color: #fff;
+    text-align: center;
+    background-image: url(template.png);
+    background-size: 200px 125px;
+    backdrop-filter: blur(30px);
+}
+
+.menu-botao{
+    border: none;
+    background: #fff;
+    display: inline-block;
+    margin-top: 122px;
+    margin-left: -2px;
+    padding-right: 68px;
+    padding-left: 70px; 
+    padding-bottom: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cardwrapper .cardbox:before{
+    content:'';
+    background: rgba(255, 255, 255, 0.3);
+    width: 60%;
+    height: 100%;
+    top: 0%;
+    left: -125px;
+    transform: skew(45deg);
+    position: absolute;
+    animation-direction: left;
+    transition-duration: 500ms;
+}
+
+.cardwrapper .cardbox:hover{
+    transform: translateY(-5%);
+}
+
+.cardwrapper .cardbox:hover:before{
+    left: 150%;
+}

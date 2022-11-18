@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tela 4 - Novo, editar modelo.css">
+    <title>Template Video</title>
+</head>
+<body>
+    <div class="content">
+        <div>
+            <video autoplay muted loop id="video"> <source src="tela1.mp4" type="video/mp4"> </video>
+        </div>
+
+        <div class="input-form">
+            <form>
+                <fieldset border="0">
+                        <div>
+                            <label  for="model-name">Nome do Modelo:<br></label> <input class="input-name" type="text" id="model-name" placeholder="Nome do Modelo"><br>
+                        </div>
+
+                        <div>
+                            <label for="strategy-method">Estratégia de Detecção:<br></label><select class="input-select" id="strategy-method">
+                                <option>Selecione a Estratégia</option>
+                                <option>ORB</option>
+                                <option>opcao 2</option>
+                                <option>opcao 3</option>
+                            </select>
+                        </div>
+                        <p>Selecionar objeto:</p>
+                        <div>
+                            <label class="form-label" for="model-x">X:</label><input class="input-model" type="number" id="model-x" placeholder="X"><br>
+                            <label class="form-label" for="model-y">Y:</label><input class="input-model" type="number" id="model-y" placeholder="Y"><br>
+                            <label class="form-label" for="model-largura">Largura:</label><input class="input-model" type="number" id="model-largura" placeholder="Largura"><br>
+                            <label class="form-label" for="model-altura">Altura:</label><input class="input-model" type="number" id="model-altura" placeholder="Altura"><br>
+                        </div>
+
+                        <p class="text-guidance">Deseja obter orientação?</p>
+
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                        <button type="submit" id="btn">Salvar</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

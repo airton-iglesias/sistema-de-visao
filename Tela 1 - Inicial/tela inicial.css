@@ -1,0 +1,37 @@
+#video{
+    position: fixed;
+    margin: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+    width: 98%;
+    height: 95.9%;
+    object-fit: fill;
+}
+
+#btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    left: 93%;
+    top: 5%;
+    width: 80px;
+    height: 45px;
+    
+    background: rgb( 96, 84, 233);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: arial;
+    cursor: pointer;
+    text-shadow: 1px 2px 3px #000000;
+
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: grey;
+}
+.content{
+    align-items: center;
+}
+.block{
+    position: relative;
+    width: 40vh;
+    height: 45vh;
+    margin: 0 auto;
+    top: 20vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.login-ico img{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    top: 5vh;
+    width: 90px;
+    height: 80px;
+}
+
+.inputs input{
+    position: relative;
+    width: 70%;
+    margin-bottom: 10px;
+    left: 4.5vh;
+    top: 8vh;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.inputs button{
+    position: relative;
+    top: 10vh;
+    left: 10vh;
+    width: 50%;
+    height: 8vh;
+    border: 1px solid blue;
+    border-radius: 20px;
+}

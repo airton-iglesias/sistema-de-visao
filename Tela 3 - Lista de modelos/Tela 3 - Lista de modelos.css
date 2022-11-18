@@ -1,0 +1,72 @@
+.btn-add a{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    left: -43vh;
+    top: 10vh;
+    margin: 0 auto;
+    align-items: center;
+
+    justify-content: center;
+    text-decoration: none;
+
+    background-color: rgb( 96, 84, 233);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content-tables{
+    position: relative;
+    top: 12vh;
+}
+
+.tables{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tables, td, th{
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tables #edit-button{
+    width: 55px;
+    height: 25px;
+    background-color: rgb( 96, 84, 233);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tables #del-button{
+    width: 55px;
+    height: 25px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#eye{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    cursor: pointer;
+}
