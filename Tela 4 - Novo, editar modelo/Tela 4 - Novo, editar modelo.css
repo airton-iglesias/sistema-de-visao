@@ -78,7 +78,7 @@ fieldset{
     width: 42px;
     height: 20px;
     left: 180px;
-    bottom: 30px;
+    bottom: 20px;
   }
   
   /* Hide default HTML checkbox */
@@ -144,7 +144,7 @@ fieldset{
   background-color: rgb( 96, 84, 233);
     position: relative;
     bottom: -5vh;
-    left: 8vh;
+    left: 6vh;
     width: 90px;
     height: 50px;
     border: 1px solid blue;
