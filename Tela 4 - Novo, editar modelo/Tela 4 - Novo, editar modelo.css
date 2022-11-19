@@ -16,8 +16,8 @@
 }
 
 .form-box{
-  left: 159vh;
   position: absolute;
+  display: flex;
   margin: 0;
   right: 0;
   top: 0;
@@ -30,9 +30,11 @@
 
 fieldset{
   border: none;
+  position: relative;
 }
 
 .input-name{
+  position: relative;
   width: 280px;
   height: 40px;
   margin-top: 15px;
@@ -42,6 +44,7 @@ fieldset{
 }
 
 .input-select{
+  position: relative;
   margin-top: 15px;
   margin-bottom: 5px;
   width: 285px;
