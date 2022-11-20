@@ -1,6 +1,5 @@
 .all-cards{
     position: absolute;
-    display: block;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -12,18 +11,19 @@
     
 }
 .card{
-    position: relative;
+    position:relative;
+    display: flex;
     float: left;
     width: 250px;
     padding: 4%;
-    left: 15%;
+    left: 19%;
+    top: 15%;
     
 }
 
+
 .all-cards a{
     position: relative;
-    display: inline-block;
-    background-color: brown;
     width: 200px;
     height: 170px;
     text-decoration: none;
@@ -35,6 +35,7 @@
     width: 200px;
     height: 170px;
     border-radius: 5px;
+    margin: 0;
     border: 2px solid black;
     
 }
@@ -46,7 +47,7 @@
     background-size: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 71%;
+    margin-top: 71.1%;
     text-align: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -62,7 +63,9 @@
         position: relative;
         float: left;
         width: 250px;
-        padding: 5%;
-        left: 13%;
+        padding: 4%;
+        left: 14%;
+        top: 7%;
+        
     }
 }
