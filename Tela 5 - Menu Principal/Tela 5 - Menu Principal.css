@@ -58,13 +58,13 @@
     clear: both;
 }
 
-@media screen and (max-width=1400px){
+@media screen and (max-width:1400px){
     .card{
         position: relative;
         float: left;
         width: 250px;
         padding: 4%;
-        left: 14%;
+        left: 11%;
         top: 7%;
         
     }
